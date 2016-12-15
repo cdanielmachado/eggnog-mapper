@@ -1,0 +1,7 @@
+eggnog-mapper:
+  build: .
+  dockerfile: Dockerfile
+  volumes:
+    - ~/Dev/eggnog-mapper/data:/data
+  ports:
+    - "51500:51500"
